@@ -24,7 +24,7 @@ function Projects(props: Props) {
                 <li className='list-none' key = {i}>
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44'>
                     <Image
-                    src={project.img} alt=""  className='max-[450px]:w-10 w-[600px]' />
+                    src={project.img} alt=""  className='max-[450px]:w-30 w-[600px]' />
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                         <h4 className='text-4xl font-semibold text-center max-[450px]:text-base'>Project {i+1} of {props.projects.length}: {project.nume}</h4>
                         <p className='text-lg text-center md:text-left max-[450px]:text-sm'>

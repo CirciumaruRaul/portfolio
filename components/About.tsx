@@ -33,7 +33,7 @@ function About(props: Props) {
         <Image className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-64 xl:w-[400px] xl:h-[500px] max-[500px]:w-28 max-[500px]:h-28' src={props.about.poza} alt = {"imagine"}/>
         </motion.div>
 
-        <div className='space-y-10 px-0 md:px-10 flex flex-col w-[700px]'>
+        <div className='space-y-10 px-0 md:px-10 flex flex-col w-[600px] max-[500px]:w-[350px]'>
             <h4 className='text-4xl font-semibold'>Here is a <span className='text-lg text-[#CD7F32]'>little</span> background</h4>
             <p className='text-base'>{props.about.descrierea}</p>
         </div>
