@@ -18,7 +18,7 @@ function Skills(props: Props) {
         <h3 className='absolute top-24 uppercase tracking-[3px] text-gray-500 text-sm'>
             Hover over a skill for current profieciency
         </h3>
-        <div className='grid grid-cols-4 gap-5 max-[400px]:grid-cols-2 absolute'>
+        <div className='grid grid-cols-4 gap-5 max-[400px]:grid-cols-3 absolute'>
         {props.skills.map((skill: { procent: number; poza: string; }, i: React.Key | null | undefined) =>(
                 <li className='list-none' key = {i}>
                   <Skill procent={skill.procent} poza={skill.poza} />
