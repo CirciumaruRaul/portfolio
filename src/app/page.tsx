@@ -53,7 +53,7 @@ const projects = [
   {img:oop, nume:"OOP", descriere:"This project is an application that manages the orders from a store and the changes are made in realtime to the list of items for order. Made with concepts like: polymorphism, inheritance, virtualization, interface, singleton menu, template classes and functions."},
   {img:AntEvt, nume:"Prezentation website", descriere:"A simple presentation website using HTML, CSS and JAVASCRIPT. The javascript in this particular project is not the focus. The main point of this project for me were the looks of it."},
   {img:LogReg, nume:"Node API-CRUD with LoginRegister", descriere:"A project with a bit of styling that has the following: DOM-operation, mouse and keyboard events, AJAX for CRUD API and nodejs for the backend routes."},
-  {img:Db, nume:"Relationa-Database", descriere:"This database is made using 'DatabaseXE' from Oracle. It models a Uber like company. That has information about clients, employees that interacted with a specific client, their job, department and so on."}
+  {img:Db, nume:"Relational-Database", descriere:"This database is made using 'DatabaseXE' from Oracle. It models a Uber like company. That has information about clients, employees that interacted with a specific client, their job, department and so on."}
 ]
 
 
